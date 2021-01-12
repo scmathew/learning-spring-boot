@@ -1,6 +1,6 @@
 # Learning Spring Boot
 
-Sample Spring Boot project.
+Sample Spring Boot project created from a LinkedIn Learning course.
 
 ## Build
 ### Start Postgres DB via Docker

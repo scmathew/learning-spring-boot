@@ -29,5 +29,6 @@ public class Reservation {
     private long guestId;
 
     @Column(name="RES_DATE")
-    private Date resDate;
+    private Date reservationDate;
+    
 }
