@@ -19,7 +19,7 @@ cd bin
 - [LinkedIn Learning Course](https://www.linkedin.com/learning/learning-spring-with-spring-boot-2/solution-build-an-additional-repository?u=2079044)
 
 ## Side Exploration
-To connect to postgres your machine localhost from spring boot running in a container
+To connect to postgres available to localhost on your machine from a spring boot app running in a container: 
 In `application.properties` set `spring.datasource.url=jdbc:postgresql://host.docker.internal:5432/dev`  
 *Note*: Once you make this change, it will no longer work when just running locally outside of a container
 
